@@ -123,3 +123,11 @@ export interface User {
   ip: string;
   createAt: Date;
 }
+
+export interface ArticleQuery {
+  keyWord: string;
+  page: number;
+  pageSize: number;
+}
+
+export type Query = Partial<ArticleQuery>;
