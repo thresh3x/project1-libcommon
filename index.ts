@@ -122,6 +122,7 @@ export interface User {
   qq: string;
   ip: string;
   createAt: Date;
+  oldPassword: string;
 }
 
 export interface ArticleQuery {
