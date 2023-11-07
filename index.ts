@@ -131,4 +131,9 @@ export interface ArticleQuery {
   pageSize: number;
 }
 
-export type Query = Partial<ArticleQuery>;
+export type Query = Partial<ArticleQuery> & {role?:number};
+
+export type FindAllRes = {
+  data: User[],
+  total: number
+}
