@@ -137,3 +137,9 @@ export type FindAllRes = {
   data: User[],
   total: number
 }
+
+export type PatchType = {
+  generatedMaps: any[]
+  row: any[]
+  affected: number // 1 success
+}
