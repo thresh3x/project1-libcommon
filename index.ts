@@ -4,7 +4,7 @@ export interface Article {
   title: string;
   categoryId: number;
   content: string;
-  background: string;
+  cover: string;
   isTop: number;
   status: number;
   views: number;
