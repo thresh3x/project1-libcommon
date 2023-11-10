@@ -21,7 +21,7 @@ export interface Category {
 
 export interface Tag {
   id: number;
-  tags: string;
+  name: string;
 }
 
 export interface Album {
