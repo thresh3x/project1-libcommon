@@ -2,7 +2,7 @@ export interface Article {
   id: number;
   uuid: string;
   title: string;
-  categoryId: number;
+  category: Category;
   content: string;
   cover: string;
   isTop: number;
