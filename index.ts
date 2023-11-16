@@ -6,6 +6,7 @@ export interface Article {
   content: string;
   cover: string;
   isTop: number;
+  author_id: number;
   status: number;
   views: number;
   likes: number;
