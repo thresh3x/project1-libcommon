@@ -144,3 +144,9 @@ export type PatchType = {
   row: any[]
   affected: number // 1 success
 }
+
+export type UploadType = {
+  url: string
+  filename: string
+  code: number // 0 success
+}
