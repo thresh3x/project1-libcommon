@@ -32,6 +32,7 @@ export interface Album {
   cover: string;
   createdAt: Date;
   updatedAt: Date;
+  photos: Photo[];
 }
 
 export interface Background {
@@ -87,7 +88,6 @@ export interface MessageTag {
 
 export interface Photo {
   id: number;
-  ablum_id: number;
   url: string;
   status: number;
   createdAt: Date;
