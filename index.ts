@@ -92,6 +92,7 @@ export interface Photo {
   status: number;
   createdAt: Date;
   updatedAt: Date;
+  album: Album;
 }
 
 export interface Talk {
